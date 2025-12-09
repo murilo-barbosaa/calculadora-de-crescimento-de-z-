@@ -1,0 +1,18 @@
+#include <stdio.h>
+     //variaveis
+	int main(){
+	float alturadechico=1.50;
+	float alturadeze;
+	int anos=0;
+	
+	//entrada é saida
+	
+	printf("altura de chico 1.50\n");
+	printf("Digite a altura de ze para calcular quantos anos e necessario para chegar a altura de chico:\n");
+	scanf("%f", &alturadeze);
+	//resolução
+	for(;alturadeze<alturadechico; alturadeze +=0.03){
+	anos++;
+	printf("quantidade de anos necessarios:%d\n", anos);
+}
+}
